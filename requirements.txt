@@ -5,3 +5,4 @@ pandas
 requests
 tavily-python
 python-dotenv
+cohere
