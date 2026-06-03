@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-co = cohere.Client(os.getenv("COHERE_API_KEY"))
+co = cohere.Client(st.secrets["COHERE_API_KEY"])
 
 def extract_claims(text):
 
