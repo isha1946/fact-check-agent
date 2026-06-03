@@ -2,6 +2,7 @@ import cohere
 import os
 import time
 from dotenv import load_dotenv
+import streamlit as st
 
 load_dotenv()
 
